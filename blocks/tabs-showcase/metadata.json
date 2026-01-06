@@ -1,0 +1,38 @@
+{
+  "variantName": "tabs-showcase",
+  "baseBlock": "tabs",
+  "version": "1.0.0",
+  "created": "2026-01-06T09:55:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://wknd-trendsetters.site",
+    "originPage": "Fashion blog homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "showcase",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "tab label + heading + image",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "image showcases",
+      "category displays",
+      "visual content switchers"
+    ],
+    "notSuitableFor": [
+      "text-heavy tab content",
+      "data tables in tabs"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-01-06T09:55:00.000Z"
+  }
+}
