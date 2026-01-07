@@ -1,0 +1,21 @@
+{
+  "name": "hero-lookbook",
+  "description": "Full-height hero with background image, large headline, and CTA buttons for lookbook/product pages",
+  "category": "hero",
+  "created": "2026-01-06T14:25:00.000Z",
+  "source": {
+    "originalUrl": "https://wknd-trendsetters.site/products",
+    "originalClasses": ["section", "inverse-section", "utility-min-height-100dvh"]
+  },
+  "contentModel": {
+    "row1": {
+      "col1": "Background image",
+      "col2": "Headline (h1) + optional description + CTA buttons"
+    }
+  },
+  "usage": {
+    "pagesUsing": ["/content/products"],
+    "reuseCount": 1,
+    "lastUsed": "2026-01-06T14:25:00.000Z"
+  }
+}

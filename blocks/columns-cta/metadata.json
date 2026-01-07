@@ -1,0 +1,38 @@
+{
+  "variantName": "columns-cta",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-01-06T14:15:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://wknd-trendsetters.site/fashion-insights",
+    "originPage": "Fashion blog listing page",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "cta",
+    "imagePattern": "background"
+  },
+  "contentPattern": {
+    "structure": "background-image + heading + paragraph + button",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "call-to-action sections",
+      "promotional banners",
+      "featured content highlights"
+    ],
+    "notSuitableFor": [
+      "text-only sections",
+      "multi-column layouts"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/content/fashion-insights"],
+    "reuseCount": 1,
+    "lastUsed": "2026-01-06T14:15:00.000Z"
+  }
+}

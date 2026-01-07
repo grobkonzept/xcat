@@ -115,6 +115,77 @@
           ]
         }
       ]
+    },
+    {
+      "name": "wknd-trendsetters-blog-listing",
+      "urls": ["https://wknd-trendsetters.site/fashion-insights"],
+      "description": "Blog listing page with hero banner, article cards, image gallery, and CTA section",
+      "blocks": [
+        {
+          "name": "section-hero",
+          "section": true,
+          "selector": "header.section.inverse-section",
+          "sectionMetadata": null,
+          "content": [
+            {
+              "name": "hero-blog",
+              "selector": ".grid-layout:has(.ix-parallax-scale-out-hero)",
+              "description": "Hero with background image and centered H1"
+            }
+          ]
+        },
+        {
+          "name": "section-articles",
+          "section": true,
+          "selector": "section.section.secondary-section:has(.grid-layout.desktop-4-column)",
+          "sectionMetadata": {
+            "style": "secondary"
+          },
+          "content": [
+            {
+              "name": "default-content",
+              "selector": ".utility-text-align-center.utility-margin-bottom-4rem",
+              "description": "Eyebrow and Latest Articles heading"
+            },
+            {
+              "name": "cards-articles",
+              "selector": ".grid-layout.desktop-4-column.tablet-2-column",
+              "description": "4 article cards with images, tags, dates, headings"
+            }
+          ]
+        },
+        {
+          "name": "section-gallery",
+          "section": true,
+          "selector": "section.section:has(.grid-layout.desktop-3-column)",
+          "sectionMetadata": null,
+          "content": [
+            {
+              "name": "default-content",
+              "selector": ".utility-text-align-center.utility-margin-bottom-8rem",
+              "description": "Gallery heading and paragraph"
+            },
+            {
+              "name": "columns-gallery",
+              "selector": ".grid-layout.desktop-3-column.tablet-2-column-1",
+              "description": "6 images in 3x2 grid"
+            }
+          ]
+        },
+        {
+          "name": "section-cta",
+          "section": true,
+          "selector": "section.section.inverse-section:has(.grid-layout.desktop-1-column)",
+          "sectionMetadata": null,
+          "content": [
+            {
+              "name": "columns-cta",
+              "selector": ".grid-layout.desktop-1-column",
+              "description": "Background image with heading, paragraph, and CTA button"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

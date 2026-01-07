@@ -1,0 +1,20 @@
+{
+  "name": "cards-category",
+  "description": "Category cards with background images, gradient overlay, and text content for showcasing product categories",
+  "category": "cards",
+  "created": "2026-01-06T14:25:00.000Z",
+  "source": {
+    "originalUrl": "https://wknd-trendsetters.site/products",
+    "originalClasses": ["card-link", "card-link-on-inverse", "grid-layout", "utility-aspect-1x1"]
+  },
+  "contentModel": {
+    "rows": "One row per card",
+    "col1": "Background image",
+    "col2": "Eyebrow text (first p) + Title (second p or h3/h4)"
+  },
+  "usage": {
+    "pagesUsing": ["/content/products"],
+    "reuseCount": 1,
+    "lastUsed": "2026-01-06T14:25:00.000Z"
+  }
+}

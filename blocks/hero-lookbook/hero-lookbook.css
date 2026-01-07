@@ -1,0 +1,96 @@
+.hero-lookbook {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  overflow: hidden;
+  color: var(--color-white, #fff);
+}
+
+.hero-lookbook-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.hero-lookbook-bg picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-lookbook-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-lookbook-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.1) 100%);
+  z-index: 1;
+}
+
+.hero-lookbook-content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  padding: 4rem 2rem;
+}
+
+.hero-lookbook-content h1 {
+  font-size: clamp(2.5rem, 8vw, 5rem);
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 0 0 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+}
+
+.hero-lookbook-content p {
+  font-size: 1.125rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+.hero-lookbook-content .button-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.hero-lookbook-content a.button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 0;
+  transition: all 0.3s ease;
+}
+
+.hero-lookbook-content a.button:first-of-type {
+  background: var(--color-white, #fff);
+  color: var(--color-black, #000);
+}
+
+.hero-lookbook-content a.button:first-of-type:hover {
+  background: var(--color-gray-100, #f5f5f5);
+}
+
+.hero-lookbook-content a.button:not(:first-of-type) {
+  background: transparent;
+  color: var(--color-white, #fff);
+  border: 2px solid var(--color-white, #fff);
+}
+
+.hero-lookbook-content a.button:not(:first-of-type):hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+@media (min-width: 900px) {
+  .hero-lookbook-content {
+    padding: 6rem 4rem;
+  }
+}
